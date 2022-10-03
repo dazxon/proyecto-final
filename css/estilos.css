@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+nav div{
+    align-self: center;
+}
+
+.navbar{
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+}
+
+.divNombre{
+    padding-left: 200px;
+}
+
+.divRedesSociales{
+    padding-right: 200px;
+}
+
+.section1{
+    padding-top: 60px;
+    background-color: rgba(228, 228, 18, 0.831);
+    height: 600px;
+    display: flex;
+}
+
+.sectionButtons{
+    padding-top: 20px;
+}
+
+section>div>section>a{
+    padding-left: 10px;
+}
+
+h1{
+    font-size: 4em;
+}
+
+.buttonWorks{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.section2{
+    margin: 0 200px;
+    align-self: center;
+}
+img{
+    border-radius: 50%;
+}
+.section3{
+    text-align: center;
+}
+
+
+.divGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 100px;
+    margin: 0 200px;
+}
+
+.divsProject{
+    
+}
+
+section>div>div>h6{
+    
+}
