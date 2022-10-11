@@ -1,3 +1,5 @@
+html{scroll-behavior:smooth}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,11 +19,11 @@ nav>div>ul{
     width: 70%;
 }
 
-hr{ 
-    border:         none;
-    border-left:    10px solid rgb(172, 172, 10);
-    height:         4em;
-    width:          1px;
+section>div>div>hr{ 
+    border: none;
+    border-left: 10px solid rgb(172, 172, 10);
+    height: 4em;
+    width: 1px;
     margin: 10px;
 }
 
@@ -39,8 +41,6 @@ ul li{
 nav div{
     align-self: center;
 }
-
-
 
 .divUl{
     width: 60%;
@@ -71,10 +71,6 @@ nav div{
     flex-direction: row;
 }
 
-.sectionButtons{
-    padding-top: 20px;
-}
-
 section>div>section>a{
     padding-left: 10px;
 }
@@ -85,18 +81,35 @@ h1{
     margin-left: -3px;
 }
 
+section>div>h6{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.sectionButtons{
+    padding-top: 20px;
+    
+}
+
 .buttonWorks{
     background-color: black;
     color: aliceblue;
     text-align: center;
-    padding: 10px;
+    padding: 10px 30px;
+    font-size: 0.6em;
+}
+
+section>div>section>a{
+    color: black;
+    font-weight: 700;
+    font-size: 0.6em;
 }
 
 .section2{
     padding-left: 100px;
     align-self: center;
     width: 50%;
-    zoom: 2;
+    zoom: 1.7;
 }
 
 .fotoPerfil{
@@ -114,14 +127,39 @@ h1{
 
 .flecha{
     margin-top: -30px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
     width: 100%;
     text-align: center;
+}
 
+.aboutMe{
+    color: black;
+}
+
+/* SECTION ABOUT ME */
+.divAbout{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section>div>p{
+    font-size: 1em;
+    margin-bottom: 10px;  
+}
+
+section>div>p>span{
+    background-color: rgba(228, 228, 18, 0.831);
+    padding: 1px 4px;
+    font-weight: 500;
+}
+
+section>div>h4{
+    font-size: 3em;
 }
 
 .section3{
     text-align: center;
+    background-color: rgb(236, 234, 232);
 }
 
 
