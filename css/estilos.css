@@ -66,7 +66,7 @@ nav div{
 .section1{
     padding-top: 60px;
     background-color: rgba(228, 228, 18, 0.831);
-    height: 600px;
+    height: 800px;
     display: flex;
     flex-direction: row;
 }
@@ -82,6 +82,7 @@ section>div>section>a{
 h1{
     font-size: 4em;
     font-weight: 700;
+    margin-left: -3px;
 }
 
 .buttonWorks{
@@ -101,7 +102,7 @@ h1{
 .fotoPerfil{
     border-radius: 50%;
     border: 8px solid white;
-    height: 300px;
+    height: 400px;
 }
 
 .divFotoPerfil{
@@ -109,6 +110,14 @@ h1{
     width: 50%;
     text-align: end;
     margin-right: 200px;
+}
+
+.flecha{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+
 }
 
 .section3{
