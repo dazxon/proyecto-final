@@ -2,9 +2,19 @@
     margin: 0;
     padding: 0;
 }
+
 .flex{
     display: flex;
 }
+
+nav>div>h3{
+    margin-left: 200px;
+}
+nav>div>ul{
+    margin: auto;
+    width: 70%;
+}
+
 ul li{
     text-decoration: none;
     text-transform: uppercase;
@@ -16,20 +26,25 @@ nav div{
     align-self: center;
 }
 
+.divUl{
+    width: 60%;
+}
+
 .navbar{
     justify-content: space-between;
     height: 60px;
     width: 100%;
     background-color: aliceblue;
     position: fixed;
+    flex-direction: row;
 }
 
 .divNombre{
-    padding-left: 200px;
+    width: 20%;
 }
 
 .divRedesSociales{
-    padding-right: 200px;
+    width: 20%;
 }
 
 .section1{
@@ -37,6 +52,7 @@ nav div{
     background-color: rgba(228, 228, 18, 0.831);
     height: 600px;
     display: flex;
+    flex-direction: row;
 }
 
 .sectionButtons{
@@ -61,10 +77,22 @@ h1{
 .section2{
     margin: 0 200px;
     align-self: center;
+    width: 66.6%;
 }
-img{
+
+.fotoPerfil{
     border-radius: 50%;
+    border: 8px solid white;
+    height: 300px;
 }
+
+.divFotoPerfil{
+    align-self: center;
+    width: 33.3%;
+    text-align: end;
+    margin-right: 200px;
+}
+
 .section3{
     text-align: center;
 }
