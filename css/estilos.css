@@ -3,6 +3,7 @@ html{scroll-behavior:smooth}
 :root{
     --colorPrincipal: #F4DC4C;
     --colorSecundario: #14141C;
+    --colorGris: #4D4D4D;
     --marginLeftRight: 15%;
 }
 
@@ -138,7 +139,9 @@ section>div>section>a{
     color: black;
 }
 
+
 /* SECTION ABOUT ME */
+
 .divTitle{
     text-align: center;
     margin: 50px 0px;
@@ -182,7 +185,30 @@ section>div>h3>span{
 }
 
 .divHi{
+    width: 70%;
+}
+
+.divYears{
+    width: 30%;
+    text-align: center;
+}
+
+.number{
+    font-size: 4.3em;
+    color: var(--colorGris);
+    font-weight: 500;
+}
+
+section>div>span{
     
+}
+
+.hSix{
+    font-size: 1em;
+}
+
+section>div>h6>span{
+    font-weight: 900;
 }
 
 /* FIN SECTION ABOUT ME */
