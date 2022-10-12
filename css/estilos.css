@@ -2,6 +2,7 @@ html{scroll-behavior:smooth}
 
 :root{
     --colorPrincipal: #F4DC4C;
+    --colorSecundario: #14141C;
 }
 
 *{
@@ -28,20 +29,21 @@ ul li{
     display: flex;
     margin: 20px 300px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 nav>section>ul{
     display: flex;
-    flex-direction: row;
 }
 
 nav>section>ul>li{
-    padding: 0 10px;
+    padding: 0 12px;
     font-weight: bold;
 }
 
 /* TERMINA NAVBAR */
+
+/* EMPIEZA SECTION DEVELOPER */
 
 section>div>div>hr{ 
     border: none;
@@ -55,14 +57,16 @@ section>div>div>hr{
     display: flex;
 }
 
-
+.sectionAmarillo{
+    background-color: var(--colorPrincipal);
+}
 
 .section1{
     padding-top: 60px;
-    background-color: var(--colorPrincipal);
     height: 800px;
     display: flex;
     flex-direction: row;
+    margin: 0 300px;
 }
 
 section>div>section>a{
@@ -86,7 +90,8 @@ section>div>h6{
 }
 
 .buttonWorks{
-    background-color: black;
+    background-color: var(--colorSecundario);
+    border: none;
     color: aliceblue;
     text-align: center;
     padding: 10px 30px;
@@ -100,7 +105,6 @@ section>div>section>a{
 }
 
 .section2{
-    padding-left: 100px;
     align-self: center;
     width: 50%;
     zoom: 1.7;
@@ -108,7 +112,7 @@ section>div>section>a{
 
 .fotoPerfil{
     border-radius: 50%;
-    border: 8px solid white;
+    border: 12px solid white;
     height: 400px;
 }
 
@@ -116,7 +120,6 @@ section>div>section>a{
     align-self: center;
     width: 50%;
     text-align: end;
-    margin-right: 200px;
 }
 
 .flecha{
@@ -191,7 +194,7 @@ section>div>h4{
 
 /* SECTION 10 - FOOTER */
 footer{
-    background-color: #14141C;
+    background-color: var(--colorSecundario);
     display: flex;
     justify-content: space-between;
 }
