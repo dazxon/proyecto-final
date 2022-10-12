@@ -1,27 +1,51 @@
 html{scroll-behavior:smooth}
 
+:root{
+    --colorPrincipal: #F4DC4C;
+}
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.flex{
-    display: flex;
+/* NAVBAR */
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
 }
 
-nav>div>h3{
-    margin-left: 200px;
-    
+ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
 }
-nav>div>ul{
-    margin: auto;
-    width: 70%;
+
+.sectionNav{
+    display: flex;
+    margin: 20px 300px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
+nav>section>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav>section>ul>li{
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+/* TERMINA NAVBAR */
 
 section>div>div>hr{ 
     border: none;
-    border-left: 10px solid rgb(172, 172, 10);
+    border-left: 10px solid rgba(172, 172, 10, 0.832);
     height: 4em;
     width: 1px;
     margin: 10px;
@@ -31,41 +55,11 @@ section>div>div>hr{
     display: flex;
 }
 
-ul li{
-    text-decoration: none;
-    text-transform: uppercase;
-    list-style-type: none;
-    padding-left: 20px;
-    font-weight: bold;
-}
-nav div{
-    align-self: center;
-}
 
-.divUl{
-    width: 60%;
-}
-
-.navbar{
-    justify-content: space-between;
-    height: 60px;
-    width: 100%;
-    background-color: aliceblue;
-    position: fixed;
-    flex-direction: row;
-}
-
-.divNombre{
-    width: 20%;
-}
-
-.divRedesSociales{
-    width: 20%;
-}
 
 .section1{
     padding-top: 60px;
-    background-color: rgba(228, 228, 18, 0.831);
+    background-color: var(--colorPrincipal);
     height: 800px;
     display: flex;
     flex-direction: row;
@@ -157,6 +151,7 @@ section>div>h4{
     font-size: 3em;
 }
 
+/* SECTION 3 - HOW I CAN HELP */
 .section3{
     text-align: center;
     background-color: rgb(236, 234, 232);
@@ -168,4 +163,49 @@ section>div>h4{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 100px;
     margin: 0 200px;
+}
+
+/* SECTION 4 - RESUME */
+
+
+
+/* SECTION 5 - PORTFOLIO */
+
+
+
+/* SECTION 6 - INTERESTED IN WORKING? */
+
+
+
+/* SECTION 7 - FAQ */
+
+
+
+/* SECTION 8 - HOW I CAN HELP */
+
+
+
+/* SECTION 9 - FORM */
+
+
+
+/* SECTION 10 - FOOTER */
+footer{
+    background-color: #14141C;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>div{
+    margin: 50px 300px;
+    color: aliceblue;
+}
+
+footer>div>p{
+    font-size: 700;
+}
+
+footer>div>p>span{
+    text-decoration: underline solid var(--colorPrincipal);
+    color: var(--colorPrincipal);
 }
