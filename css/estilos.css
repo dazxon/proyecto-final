@@ -45,7 +45,7 @@ nav>section>ul>li{
 
 /* EMPIEZA SECTION DEVELOPER */
 
-section>div>div>hr{ 
+section>div>section>hr{ 
     border: none;
     border-left: 10px solid rgba(172, 172, 10, 0.832);
     height: 4em;
