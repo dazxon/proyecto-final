@@ -3,6 +3,7 @@ html{scroll-behavior:smooth}
 :root{
     --colorPrincipal: #F4DC4C;
     --colorSecundario: #14141C;
+    --marginLeftRight: 15%;
 }
 
 *{
@@ -27,7 +28,7 @@ ul li{
 
 .sectionNav{
     display: flex;
-    margin: 20px 300px;
+    margin: 20px var(--marginLeftRight);
     flex-direction: row;
     justify-content: space-between;
 }
@@ -66,11 +67,15 @@ section>div>section>hr{
     height: 800px;
     display: flex;
     flex-direction: row;
-    margin: 0 300px;
+    margin: 0 var(--marginLeftRight);
 }
 
 section>div>section>a{
     padding-left: 10px;
+}
+
+section>section>div>h2{
+    font-weight: 400;
 }
 
 h1{
@@ -134,9 +139,9 @@ section>div>section>a{
 }
 
 /* SECTION ABOUT ME */
-.divAbout{
+.divTitle{
     text-align: center;
-    padding: 40px 0px;
+    margin: 50px 0px;
 }
 
 section>div>p{
@@ -145,14 +150,43 @@ section>div>p{
 }
 
 section>div>p>span{
-    background-color: rgba(228, 228, 18, 0.831);
+    background-color: var(--colorPrincipal);
     padding: 1px 4px;
     font-weight: 500;
+    text-transform: capitalize;
 }
 
-section>div>h4{
+h4{
     font-size: 3em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
+
+section>div>h3{
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+section>div>h3>span{
+    border-bottom: 3px solid var(--colorPrincipal);
+    padding-bottom: 3px;
+    font-weight: 600;
+}
+
+.sectionHi{
+    display: flex;
+    flex-direction: row;
+    margin: 0 var(--marginLeftRight);
+    text-align: justify;
+    font-size: 1.7em;
+}
+
+.divHi{
+    
+}
+
+/* FIN SECTION ABOUT ME */
+
 
 /* SECTION 3 - HOW I CAN HELP */
 .section3{
@@ -200,7 +234,7 @@ footer{
 }
 
 footer>div{
-    margin: 50px 300px;
+    margin: 50px var(--marginLeftRight);
     color: aliceblue;
 }
 
