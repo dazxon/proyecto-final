@@ -287,19 +287,41 @@ section>div>h6>span{
 /* FIN SECTION ABOUT ME */
 
 
-/* SECTION 3 - HOW I CAN HELP */
+/* SECTION 3 - WHAT I DO? */
 
 .section3{
     padding-top: 60px;
     text-align: center;
-    background-color: rgb(236, 234, 232);
+    background-color: whitesmoke;
+    font-family: var(--popins);
 }
-
 
 .divGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 200px;
+    margin: 0 var(--marginLeftRight);
+    grid-column-gap: 7%;
+    grid-row-gap: 7%;
+    padding-bottom: 125px;
+}
+
+section>div>div>i{
+    color: var(--colorPrincipal);
+    font-size: 3.5em;
+    padding-top: 25px;
+}
+
+section>div>div>h6{
+    font-size: 1.6em;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+section>div>div>p{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--colorGris);
+    padding-top: 10px;
 }
 
 /* TERMINA SECTION 3 - WHAT I DO? */
