@@ -48,6 +48,22 @@ html{scroll-behavior:smooth}
     padding-top: 7px;
 }
 
+ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--colorSecundario);
+    padding: 1px 4px;
+}
+
+ul>li>a:hover{
+    background-color: var(--colorPrincipal);
+}
+
 /* TERMINA ROOT - VAR - GENERAL CLASS */
 
 
@@ -58,12 +74,6 @@ html{scroll-behavior:smooth}
     background-color: aliceblue;
     position: fixed;
     font-family: var(--popins);
-}
-
-ul li{
-    text-decoration: none;
-    text-transform: uppercase;
-    list-style-type: none;
 }
 
 .sectionNav{
@@ -83,6 +93,8 @@ nav>section>ul>li{
 }
 
 /* TERMINA NAVBAR */
+
+
 
 /* EMPIEZA SECTION DEVELOPER AMARILLO */
 
@@ -127,7 +139,6 @@ section>div>h6{
 
 .sectionButtons{
     padding-top: 20px;
-    
 }
 
 .buttonWorks{
@@ -273,7 +284,9 @@ section>div>h6>span{
 
 
 /* SECTION 3 - HOW I CAN HELP */
+
 .section3{
+    padding-top: 60px;
     text-align: center;
     background-color: rgb(236, 234, 232);
 }
@@ -282,25 +295,36 @@ section>div>h6>span{
 .divGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 50px 100px;
     margin: 0 200px;
 }
 
+/* TERMINA SECTION 3 - WHAT I DO? */
+
+
+
 /* SECTION 4 - RESUME */
+.section4{
+    padding-top: 60px;
+}
+/* TERMINA SECTION 4 - RESUME */
 
 
 
 /* SECTION 5 - PORTFOLIO */
-
-
+.section5{
+    padding-top: 60px;
+}
+/* TERMINA SECTION 5 - PORTFOLIO */
 
 /* SECTION 6 - INTERESTED IN WORKING? */
 
 
 
 /* SECTION 7 - FAQ */
-
-
+.section7{
+    padding-top: 60px;
+}
+/* TERMINA SECTION 7 - FAQ */
 
 /* SECTION 8 - HOW I CAN HELP */
 
@@ -334,5 +358,10 @@ footer>div>p{
 
 footer>div>p>span{
     text-decoration: underline solid var(--colorPrincipal);
+    color: var(--colorPrincipal);
+}
+
+.sectionIcon,a{
+    padding-top: 50px;
     color: var(--colorPrincipal);
 }
