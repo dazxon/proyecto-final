@@ -24,12 +24,40 @@ html{scroll-behavior:smooth}
     padding: 0;
 }
 
+.divTitle{
+    text-align: center;
+    padding: 50px 0px;
+    font-family: var(--popins);
+}
+
+.upTitle{
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 0.9em;
+}
+
+.upTitleSub{
+    background-color: var(--colorPrincipal);
+    padding: 1px 8px;
+    font-weight: 600;
+}
+
+.downTitle{
+    font-weight: 600;
+    font-size: 2.6em;
+    padding-top: 7px;
+}
+
+/* TERMINA ROOT - VAR - GENERAL CLASS */
+
+
 /* NAVBAR */
 .navbar{
     height: 60px;
     width: 100%;
     background-color: aliceblue;
     position: fixed;
+    font-family: var(--popins);
 }
 
 ul li{
@@ -84,10 +112,6 @@ section>div>section>hr{
 
 section>div>section>a{
     padding-left: 10px;
-}
-
-section>section>div>h2{
-    font-weight: 400;
 }
 
 h1{
@@ -149,28 +173,19 @@ section>div>section>a{
 .aboutMe{
     color: black;
 }
+
 /* TERMINA SECTION DEVELOPER AMARILLO */
 
 
 
 /* SECTION ABOUT ME */
 
-.divTitle{
-    text-align: center;
-    margin: 50px 0px;
-}
 
 section>div>p{
     font-size: 1em;
     margin-bottom: 10px;  
 }
 
-section>div>p>span{
-    background-color: var(--colorPrincipal);
-    padding: 1px 4px;
-    font-weight: 500;
-    text-transform: capitalize;
-}
 
 h4{
     font-size: 3em;
@@ -195,6 +210,31 @@ section>div>h3>span{
     margin: 0 var(--marginLeftRight);
     text-align: justify;
     align-items: center;
+}
+
+.sectionBaseline{
+    display: flex;
+    margin: 0 var(--marginLeftRight);
+    text-align: justify;
+}
+
+.divAboutMeBaseline{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+section>section>div>p{
+    font-weight: 500;
+}
+
+.spanEmail{
+    text-decoration: underline;
+}
+
+section>section>div>span{
+    font-weight: 700;
+    font-size: 1.2em;;
 }
 
 .divHi{
@@ -264,7 +304,13 @@ section>div>h6>span{
 
 /* SECTION 8 - HOW I CAN HELP */
 
+.section8{
+    background-color: var(--colorGris);
+}
 
+.section8 .divTitle .downTitle{
+    color: white;
+}
 
 /* SECTION 9 - FORM */
 
