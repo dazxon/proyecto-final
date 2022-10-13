@@ -336,16 +336,50 @@ section>div>div>p{
 .contenedorResume{
     margin: 0 var(--marginLeftRight);
     display: flex;
+    flex-direction: row;
+    padding-top: 20px;
 }
 
 .contenedorResume section div hr{
     border: none;
     border-left: 2px solid var(--colorPrincipal);
     height: 100%;
+    padding-right: 15px;
 }
 
 .resumeMain{
     display: flex;
+}
+
+.myEducationMyExperience{
+    width: 50%;
+}
+
+.myEducationMyExperience h4{
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.resumeMain section div h5{
+    font-size: 1.34em;
+    font-weight: 500;
+}
+
+.resumeMain section div h6{
+    font-size: 1.1em;
+    padding-top: 5px;
+}
+
+.resumeMain section div p{
+    padding-top: 10px;
+    color: var(--colorGris);
+    font-weight: 400;
+}
+
+.resumeMain section hr{
+    margin: 20px 0px;
+    border: 1px outset rgba(255, 255, 255, 0.399);
 }
 
 /* TERMINA SECTION 4 - RESUME */
