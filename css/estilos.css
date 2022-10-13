@@ -332,6 +332,22 @@ section>div>div>p{
 .section4{
     padding-top: 60px;
 }
+
+.contenedorResume{
+    margin: 0 var(--marginLeftRight);
+    display: flex;
+}
+
+.contenedorResume section div hr{
+    border: none;
+    border-left: 2px solid var(--colorPrincipal);
+    height: 100%;
+}
+
+.resumeMain{
+    display: flex;
+}
+
 /* TERMINA SECTION 4 - RESUME */
 
 
@@ -342,7 +358,12 @@ section>div>div>p{
 }
 /* TERMINA SECTION 5 - PORTFOLIO */
 
+
+
+
 /* SECTION 6 - INTERESTED IN WORKING? */
+
+/* TERMINA SECTION 6 - INTERESTED IN WORKING? */
 
 
 
@@ -351,6 +372,8 @@ section>div>div>p{
     padding-top: 60px;
 }
 /* TERMINA SECTION 7 - FAQ */
+
+
 
 /* SECTION 8 - HOW I CAN HELP */
 
@@ -362,9 +385,13 @@ section>div>div>p{
     color: white;
 }
 
+/* TERMINA SECTION 8 - HOW I CAN HELP */
+
+
+
 /* SECTION 9 - FORM */
 
-
+/* TERMINA SECTION 9 - FORM */
 
 /* SECTION 10 - FOOTER */
 footer{
