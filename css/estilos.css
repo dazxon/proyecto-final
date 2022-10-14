@@ -477,7 +477,22 @@ section>div>div>p{
 .section5{
     padding-top: 60px;
     background-color: whitesmoke;
+    
 }
+
+.divPortfolioImages{
+    margin: 0 var(--marginLeftRight);
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+    grid-gap: 3%;
+
+}
+
+.divPortfolioImages img{
+    width: 100%;
+}
+
+
 /* TERMINA SECTION 5 - PORTFOLIO */
 
 
