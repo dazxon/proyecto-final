@@ -481,11 +481,10 @@ section>div>div>p{
 }
 
 .divPortfolioImages{
-    margin: 0 var(--marginLeftRight);
+    margin: 0 19.5% 0 var(--marginLeftRight);
     display: grid;
     grid-template-columns: repeat(3,33.3%);
     grid-gap: 3%;
-
 }
 
 .divPortfolioImages img{
