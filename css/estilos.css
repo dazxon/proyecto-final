@@ -476,8 +476,7 @@ section>div>div>p{
 /* SECTION 5 - PORTFOLIO */
 .section5{
     padding-top: 60px;
-    background-color: whitesmoke;
-    
+    background-color: whitesmoke;   
 }
 
 .divPortfolioImages{
@@ -485,12 +484,12 @@ section>div>div>p{
     display: grid;
     grid-template-columns: repeat(3,33.3%);
     grid-gap: 3%;
+    padding-bottom: 100px;
 }
 
 .divPortfolioImages img{
     width: 100%;
 }
-
 
 /* TERMINA SECTION 5 - PORTFOLIO */
 
@@ -525,8 +524,42 @@ section>div>div>p{
 
 
 /* SECTION 9 - FORM */
+.section9{
+    background-color: var(--colorPrincipal);
+}
+
+.containerDivForm{
+    margin: 0 var(--marginLeftRight);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.divIzquierdoForm{
+    width: 50%;
+}
+
+.divDerechoForm{
+    width: 50%;
+}
+
+.section9 .containerDivForm div h2{
+    font-size: 2.2em;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.section9 .containerDivForm div p{
+    width: 70%;
+    font-size: 1.2em;
+    padding-bottom: 25gitpx;
+}
 
 /* TERMINA SECTION 9 - FORM */
+
+
+
 
 /* SECTION 10 - FOOTER */
 footer{
