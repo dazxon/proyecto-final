@@ -341,7 +341,7 @@ section>div>div>p{
     padding-bottom: 40px;
 }
 
-.contenedorResume section div hr{
+.contenedorResume section section div hr{
     border: none;
     border-left: 2px solid var(--colorPrincipal);
     height: 100%;
@@ -542,20 +542,42 @@ section>div>div>p{
 
 .divDerechoForm{
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .section9 .containerDivForm div h2{
     font-size: 2.2em;
     font-weight: 600;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 .section9 .containerDivForm div p{
     width: 70%;
     font-size: 1.2em;
-    padding-bottom: 25gitpx;
+    font-weight: 400;
 }
 
+.section9 .containerDivForm div h6{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.section9 .containerDivForm div h5{
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.section9 .containerDivForm div input{
+    background-color: var(--colorPrincipal);
+    border: none;
+    border-bottom: 1px outset rgba(255, 255, 255, 0.399);
+    padding-bottom: 20px;
+}
+
+.divFormSociales i{
+    color: var(--colorGris);
+}
 /* TERMINA SECTION 9 - FORM */
 
 
