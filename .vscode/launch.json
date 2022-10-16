@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "file:///C:/Users/TinyD/Documents/CLASES-UTN/PROYECTO-FINAL/index.html",
+            "name": "LANZALO PAPI",
+            "url": "file:///C:/Users/PRETO/Documents/UTN/proyecto-final/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
