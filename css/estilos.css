@@ -294,6 +294,7 @@ section>div>h6>span{
     text-align: center;
     background-color: whitesmoke;
     font-family: var(--popins);
+    padding-bottom: 60px;
 }
 
 .divGrid{
@@ -303,10 +304,11 @@ section>div>h6>span{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    column-gap: 4%;
 }
 
 .divsProject{
-    flex-basis: 33%;
+    flex-basis: 30%;
     min-width: 300px;
 }
 
@@ -386,6 +388,7 @@ section>div>div>p{
 .resumeMain section hr{
     margin: 20px 0px;
     border: 1px outset rgba(255, 255, 255, 0.399);
+    width: 90%;
 }
 
 .sectionMySkills{
@@ -409,7 +412,7 @@ section>div>div>p{
 
 .sectionMySkills section div div{
     width: 100%;
-    background: var(--colorGris);
+    background-color: aliceblue;
     margin-top: 10px;
     border-radius: 10px;
     height: 10px;
