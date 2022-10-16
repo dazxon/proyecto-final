@@ -297,12 +297,17 @@ section>div>h6>span{
 }
 
 .divGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 var(--marginLeftRight);
-    grid-column-gap: 7%;
-    grid-row-gap: 7%;
-    padding-bottom: 125px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.divsProject{
+    flex-basis: 33%;
+    min-width: 300px;
 }
 
 section>div>div>i{
