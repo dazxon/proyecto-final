@@ -11,6 +11,10 @@ html{scroll-behavior:smooth}
     --popins: 'Poppins', sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
 .roboto{
     font-family: var(--roboto);
 }
@@ -160,6 +164,7 @@ section>div>h6{
     text-align: center;
     padding: 10px 30px;
     font-size: 0.6em;
+    cursor: pointer;
 }
 
 section>div>section>a{
@@ -505,27 +510,57 @@ section>div>div>p{
 
 /* SECTION 6 - INTERESTED IN WORKING? */
 
+.section6{
+    background-image: url(../images/image1.jpg);
+    padding: 40px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6 div{
+    text-align: center;
+}
+
+.section6 div h2{
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.section6 div button{
+    color: var(--colorSecundario);
+    background-color: #F4DC4C;
+    font-weight: 600;
+    font-size: .8em;
+}
+
+
+
 /* TERMINA SECTION 6 - INTERESTED IN WORKING? */
 
 
 
 /* SECTION 7 - FAQ */
-.section7{
+/* .section7{
     padding-top: 60px;
-}
+} */
 /* TERMINA SECTION 7 - FAQ */
 
 
 
 /* SECTION 8 - HOW I CAN HELP */
 
-.section8{
+/* .section8{
     background-color: var(--colorGris);
 }
 
 .section8 .divTitle .downTitle{
     color: white;
-}
+} */
 
 /* TERMINA SECTION 8 - HOW I CAN HELP */
 
@@ -541,7 +576,7 @@ section>div>div>p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .divIzquierdoForm{
@@ -564,6 +599,7 @@ section>div>div>p{
     width: 70%;
     font-size: 1.2em;
     font-weight: 400;
+    padding-bottom: 20px;
 }
 
 .section9 .containerDivForm div h6{
@@ -581,11 +617,31 @@ section>div>div>p{
     border: none;
     border-bottom: 1px outset rgba(255, 255, 255, 0.399);
     padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.section9 .containerDivForm div button{
+    background-color: var(--colorSecundario);
+    color: white;
+    width: 25%;
+    font-size: 1.2em;
+    padding: 20px 0;
+}
+
+.section9 .containerDivForm div button i{
+    padding-left: 5px;
 }
 
 .divFormSociales i{
     color: var(--colorGris);
+    padding-right: 10px;
+    font-size: 30px;
 }
+
+.textAreaForm{
+    height: 80px;
+}
+
 /* TERMINA SECTION 9 - FORM */
 
 
@@ -599,7 +655,7 @@ footer{
 }
 
 footer>div{
-    margin: 50px var(--marginLeftRight);
+    margin: 80px var(--marginLeftRight);
     color: aliceblue;
 }
 
@@ -615,4 +671,72 @@ footer>div>p>span{
 .sectionIcon,a{
     padding-top: 50px;
     color: var(--colorPrincipal);
+}
+
+/* TERMINA SECTION 10 - FOOTER */
+
+
+
+/* media queries */
+
+@media (max-width: 1525px){
+    .navbar{
+        position: absolute;
+        margin: 0;
+    }
+    
+    .navbar .sectionNav{
+        justify-content: space-around;
+    }
+
+    .sectionAmarillo{
+        padding-bottom: 50px;
+    }
+
+    .section1{
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        padding-top: 40px;
+    }
+    
+    .divFotoPerfil{
+        padding: 40px 0;
+        width: auto;
+    }
+    
+    .fotoPerfil{
+        height: 300px;
+    }
+
+    .section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divDeveloper{
+        justify-content: center;
+    }
+
+@media (max-width: 1050px){
+    .divYears{
+        width: auto;
+    }
+
+    .sectionAboutMe{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sectionBaseline{
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    
+    .sectionBaseline div{
+        width: 50%;
+        padding: 20px 0;
+        margin: 0 0;
+    }
 }

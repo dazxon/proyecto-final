@@ -19,7 +19,7 @@
         <section class="sectionNav">
             <h3>CALLUM</h3>
 
-            <ul class="">
+            <ul class="liNav">
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#services">services</a></li>
@@ -59,7 +59,7 @@
                 <h6>based in Los Angeles, USA.</h6>
                 <section class="sectionButtons">
                     <button class="buttonWorks">View My Works</button>
-                    <a href="">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                     <i class="fa-solid fa-circle-arrow-down"></i>
                 </section>
             </div>
@@ -102,7 +102,7 @@
             </div>
             <div class="divAboutMeBaseline">
                 <p>Email:</p>
-                <span class="spanEmail">cht@callum.com</span>
+                <span class="spanEmail">chat@callum.com</span>
             </div>
             <div class="divAboutMeBaseline">
                 <p>Date of birth:</p>
@@ -340,9 +340,11 @@
     </section>
 
     <!--INTERESTED IN WORKING-->
-    <section class="section6">
-        <h2>Interested in working with me?</h2>
-        <button>Hire Me!</button>
+    <section class="section6 popins">
+        <div>
+            <h2>Interested in working with me?</h2>
+            <button class="buttonWorks">Hire Me!</button>
+        </div>
     </section>
 
 
@@ -353,13 +355,13 @@
     </section> -->
 
     
-    <!--CLIENT SPEAK-->
-    <section class="section8" id="client">
+    <!-- CLIENT SPEAK -->
+    <!-- <section class="section8" id="client">
         <div class="divTitle">
             <h6 class="upTitle"><span class="upTitleSub">Client Speak</span></h6>
             <h2 class="downTitle">What Some of my Clients Say</h2>
         </div>
-    </section>
+    </section> -->
 
     <!--FORM-->
     <section class="section9 popins" id="contact">
@@ -399,9 +401,9 @@
                 <input type="text" name="" id="">
                 
                 <h5>How can i help you?:</h5>
-                <input type="text" name="" id="" rows="10">
+                <input type="textarea" name="" id="" class="textAreaForm">
                 
-                <button>
+                <button class="buttonWorks">
                     Send
                     <i class="fa-solid fa-arrow-right"></i>
                 </button>
@@ -412,7 +414,7 @@
     </section>
 
     <!--FOOTER-->
-    <footer>
+    <footer class="popins">
         <div>
 
             <p>Copyright &#169; <span>Callum</span>. All Rights Reserved</p>
